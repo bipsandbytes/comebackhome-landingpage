@@ -2179,11 +2179,6 @@ select {
 .story-section .team .member .member-inner img {
   margin: 0 auto;
 }
-.story-section .team .member .member-inner:hover img {
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
-}
 .story-section .team .member .member-inner:hover .social {
   visibility: visible;
 }
@@ -2193,7 +2188,8 @@ select {
   text-align: center;
 }
 .story-section .team .member .profile .info {
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 .story-section .team .member .profile .name {
   font-size: 18px;
@@ -2216,7 +2212,7 @@ select {
   margin: 0 auto;
 }
 .story-section .team .member .social-list a {
-  color: #fff;
+  color: #888888;
   background: #253340;
   display: inline-block;
   width: 40px;
@@ -2236,6 +2232,7 @@ select {
 }
 .story-section .team .member .social-list a:hover {
   background: #ec6952;
+  color: #fff;
 }
 /* ======= Modal ======= */
 .modal.modal-video .modal-dialog {
