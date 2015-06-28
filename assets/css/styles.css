@@ -1037,7 +1037,6 @@ select {
 }
 /* ======= Steps ======= */
 .steps {
-  background: #f5f5f5;
   padding-top: 80px;
   padding-bottom: 120px;
 }
@@ -2095,6 +2094,7 @@ select {
 }
 /* ======= About Page ======= */
 .story-section {
+  background: #f5f5f5;
   position: relative;
   z-index: 10;
 }
