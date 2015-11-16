@@ -6,6 +6,9 @@
  * Twitter: @3rdwave_themes
 */
 /* ======= Base ======= */
+html {
+    -webkit-text-size-adjust: none;
+}
 code > p {
   font-size: 16px;
   font-weight: bold;
